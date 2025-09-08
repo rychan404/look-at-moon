@@ -1,0 +1,23 @@
+{
+  "name": "look-at-moon",
+  "version": "1.0.0",
+  "description": "A simple website that finds the moon phase based on date",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rychan404/look-at-moon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rychan404/look-at-moon/issues"
+  },
+  "homepage": "https://github.com/rychan404/look-at-moon#readme",
+  "dependencies": {
+    "celestial-moon": "^1.0.2",
+    "micromodal": "^0.6.1"
+  }
+}
