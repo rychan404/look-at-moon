@@ -18,6 +18,7 @@
   "homepage": "https://github.com/rychan404/look-at-moon#readme",
   "dependencies": {
     "celestial-moon": "^1.0.2",
+    "dayjs": "^1.11.18",
     "micromodal": "^0.6.1"
   }
 }

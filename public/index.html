@@ -8,9 +8,9 @@
   </head>
   <body>
     <main class="main">
-      <h1>Moon Gazing</h1>
-      <h2>On <span class="date">9/7/25</span>, it was a</h2>
-      <h2>Full Moon</h2>
+      <img src="./img/moon-gazing-logo.png" alt="" />
+      <h2>On <span class="date"></span>, it is a</h2>
+      <h2 class="moon-phase"></h2>
     </main>
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -30,9 +30,10 @@
           </header>
           <main class="modal__content" id="modal-1-content">
             <input type="date" id="date" name="date" />
+            <input type="time" id="time" name="time" />
           </main>
           <footer class="modal__footer">
-            <button class="modal__btn modal__btn-primary">Continue</button>
+            <button class="modal__btn modal__btn-primary">Finish</button>
             <button
               class="modal__btn"
               data-micromodal-close
